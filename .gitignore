@@ -1,0 +1,127 @@
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# PHP — file cấu hình kết nối database (nếu dùng)
+config.php
+database.php
+
+# Giữ lại các file mẫu để người khác biết cấu trúc cài đặt
+!.env.example
+!config.sample.php
+!database.sample.php
+
+# Thư mục chứa key, certificate hoặc credential cục bộ
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+
+# Node.js
+node_modules/
+
+# PHP (Composer)
+/vendor/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+
+# Android (Gradle)
+.gradle/
+local.properties
+
+# iOS (CocoaPods)
+Pods/
+
+# Python (nếu dùng cho backend/script)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+uploads/
+public/uploads/
+storage/app/public/
+
+# Giữ lại cấu trúc thư mục rỗng
+!uploads/.gitkeep
+!public/uploads/.gitkeep
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.lnk
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Linux ---
+*~
+
+# --- Visual Studio Code ---
+.vscode/
+
+# --- JetBrains (IntelliJ, PhpStorm, Android Studio project-level) ---
+.idea/
+
+# --- Sublime Text ---
+*.sublime-project
+*.sublime-workspace
+
+# --- Vim / Neovim ---
+*.swp
+*.swo
+*.swn
+
+# --- Các editor khác ---
+*.bak~
+\#*\#
+
+# Log files
+*.log
+error_log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tệp sao lưu tự động của editor
+*.bak
+*.tmp
+*.orig
+*.rej
+
+*.sql
+*.dump
+*.sqlite
+
+# Giữ lại file SQL khởi tạo nếu nhóm cần commit
+!database/*.sql
+!migrations/*.sql
+
+# Chung
+dist/
+out/
+*.apk
+*.aab
+*.ipa
+
+# Android
+app/build/
+app/release/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Cache chung
+*.cache
+.cache/
